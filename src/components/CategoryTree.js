@@ -1,6 +1,6 @@
 import React from 'react';
 
-import getCategories from './../services/CategoryService';
+import {getCategories} from './../services/CategoryService';
 import CategoryNode from './CategoryNode';
 
 class CategoryTree extends React.Component {

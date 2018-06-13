@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -25,4 +25,21 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 60%;
+}
+
+.left, .right {
+  float: left;
+  /*border: 1px solid red;*/
+}
+
+* {
+  /*// box-sizing: border-box;*/
 }
